@@ -1,0 +1,22 @@
+{
+  "name": "farmer-marketplace",
+  "version": "1.0.0",
+  "description": "Farmer Marketplace MERN Stack Platform - Farmers sell directly to customers without middlemen.",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && node seed.js",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "farmer-marketplace",
+    "react",
+    "express",
+    "mongodb",
+    "tailwind"
+  ],
+  "author": "Antigravity AI",
+  "license": "ISC"
+}
